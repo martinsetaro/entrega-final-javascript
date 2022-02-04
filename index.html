@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Valle Verde es una tienda dedicada a la venta de perfumes y accesorios sea para hombres o mujeres"/>
+    <meta name="keywords" content="perfumes,fragancias,accesorios,unisex,importados"/>
+    <meta name="author" content="Jorge Martin Setaro" />
+    <meta name="copyright" content="Jorge Martin Setaro" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Farmacias y perfumeria - Green Valey</title>
+</head>
+
+<body>
+    <header>
+        <h1>Valle Verde</h1>
+        <h2 id="bienvenido">Bienvenido</h2>
+        <nav>
+            <ul>
+                <li><a href="#" id="inicio">INICIO</a></li>
+                <li><a href="#boxProductos">PRODUCTOS</a></li>
+                <li><a href="#btn_information">NOVEDADES</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="first_section">
+                <div class="modal" id="modal_id">
+                    
+                </div>
+                <div id="modal_promocion">
+                    <h2>No te pierdas las inscripciones para los cursos de automaquillaje</h2>
+                    <p>Veni vos y una amiga y llevate un 50% de descuento en cualquier producto de la tienda</p>
+                    <h4>Solo por este mes aprovecha!!!!</h4>
+
+                </div>
+                
+
+
+        </section>
+        <section id="filterProduct">
+
+        </section>
+
+        <section class="second_section">
+
+            <!-- Lista de productos -->
+            <div id="boxProductos">
+            </div>
+
+                
+        
+            <!-- Simulador de cuotas -->
+                <div class="simulador" id="boxSimulador">
+                    
+                   
+                
+                </div>
+</section>
+
+<section id="productosAjax" class="productos_ajax">
+
+
+
+
+
+</section>
+<footer id="footer">
+    <div class="modal_newsLet" id="modal_newsLet">
+        <h2>Gracias por tu suscripcíon</h2>
+        <p>Enviaremos a tu correo, novedades, promos y los descuentos de nuestro productos!</p>
+
+    </div>
+    <div class="boxFooter sociales">
+        <h2>Siguenos en las Redes Sociales</h2>
+        <h3><ion-icon name="logo-instagram"></ion-icon>Instagram</h3>
+        <h3><ion-icon name="logo-facebook"></ion-icon>Facebook</h3>
+        <h3><ion-icon name="logo-twitter"></ion-icon>Twitter</h3>
+
+    </div>
+    <div class="boxFooter logo">
+        <a href="#inicio">Valle Verde</a>
+        <h4>Perfumes y accesorios</h4>
+        <h6>2022 - Sitio desarrollado por Martin Setaro</h6>
+
+    </div>
+    <div class="boxFooter contacto" id="contacto">
+        <h3>Correo Electronico : valleverde@gmail.com</h3>
+        <h3>Movil : +54 261 2572051</h3>
+        <h3>Dirección: Las Camelias N° 817 - MDZ - Argentina </h3>
+        <h3 class="subscribe">Subscribete a nuestro NewsLetter</h3>
+        <form >
+        <input id="inputNombre" type="email" value="" placeholder="Ingresa tu nombre" required>
+        <input type="submit" class="btn_newsLetter"
+        id="btn_newsLet" name="Enviar">
+        </form>
+
+    </div>
+
+</footer>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/nuevoselector.js"></script>
+    <script src="js/boxProductos.js"></script>
+    <script src="js/simulador.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/ProductosAjax.js"></script>
+
+</body>
+
+</html>

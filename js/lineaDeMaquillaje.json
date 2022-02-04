@@ -1,0 +1,97 @@
+[
+    {
+      "id": 1047,
+      "brand": "colourpop",
+      "name": "Blotted Lip",
+      "price": "1500",
+      "price_sign": "$",
+      "currency": "Pesos",
+      "image_link": "https://cdn.shopify.com/s/files/1/1338/0845/products/brain-freeze_a_800x1200.jpg?v=1502255076",
+      "product_link": "https://colourpop.com/collections/lippie-stix?filter=blotted-lip",
+      "website_link": "https://colourpop.com",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis animi fugiat soluta adipisci iste distinctio repellendus in iusto ratione cupiditate?",
+      "rating": null,
+      "category": "lipstick",
+      "product_type": "lipstick",
+      "tag_list": [
+        "cruelty free",
+        "Vegan"
+      ],
+      "created_at": "2018-07-08T22:01:20.178Z",
+      "updated_at": "2018-07-09T00:53:23.287Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1047.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/047/original/open-uri20180708-4-e7idod?1531087336"
+     
+    },
+    {
+      "id": 1046,
+      "brand": "colourpop",
+      "name": "Lippie Stix",
+      "price": "1600",
+      "price_sign": "$",
+      "currency": "Pesos",
+      "image_link": "https://cdn.shopify.com/s/files/1/1338/0845/collections/blottedlip-lippie-stix_grande.jpg?v=1512588803",
+      "product_link": "https://colourpop.com/collections/lippie-stix",
+      "website_link": "https://colourpop.com",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis animi fugiat soluta adipisci iste distinctio repellendus in iusto ratione cupiditate?",
+      "rating": null,
+      "category": "lipstick",
+      "product_type": "lipstick",
+      "tag_list": [
+        "cruelty free",
+        "Vegan"
+      ],
+      "created_at": "2018-07-08T21:47:49.858Z",
+      "updated_at": "2018-07-09T00:53:23.274Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1046.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/046/original/open-uri20180708-4-1f333k1?1531086651"
+      
+    },
+    {
+      "id": 1044,
+      "brand": "boosh",
+      "name": "Lipstick",
+      "price": "2600",
+      "price_sign": "$",
+      "currency": "Pesos",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/96/Lapiz_labial.jpg",
+      "product_link": "https://www.boosh.ca/collections/all",
+      "website_link": "https://www.boosh.ca/",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis animi fugiat soluta adipisci iste distinctio repellendus in iusto ratione cupiditate?",
+      "rating": null,
+      "category": "lipstick",
+      "product_type": "lipstick",
+      "tag_list": [
+        "Chemical Free",
+        "Organic"
+      ],
+      "created_at": "2018-07-08T17:32:28.088Z",
+      "updated_at": "2018-09-02T22:52:06.669Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1044.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/044/original/data?1531071233"
+    },
+    {
+      "id": 1037,
+      "brand": "sally b's skin yummies",
+      "name": "B Glossy Lip Gloss",
+      "price": "1300",
+      "price_sign": "$",
+      "currency": "Pesos",
+      "image_link": "https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Glossy-Lip-Gloss.jpg",
+      "product_link": "https://www.purpicks.com/product/sally-bs-skin-yummies-b-glossy-lip-gloss/",
+      "website_link": "https://purpicks.com/",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis animi fugiat soluta adipisci iste distinctio repellendus in iusto ratione cupiditate?",
+      "rating": null,
+      "category": "lip_gloss",
+      "product_type": "lipstick",
+      "tag_list": [
+        "EWG Verified",
+        "purpicks"
+      ],
+      "created_at": "2018-06-30T19:19:32.053Z",
+      "updated_at": "2018-09-02T22:52:06.687Z",
+      "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1037.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/037/original/open-uri20180630-4-1fa1p2f?1530390384"
+      
+    }
+]
