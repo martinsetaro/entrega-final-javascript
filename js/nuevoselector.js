@@ -28,7 +28,7 @@ $('#filterProduct').append(`<label name="perfume">Perfumes</label>
 
 $('#filterProduct').append(`<h2>Perfumeria</h2>`)
 $('#filterProduct').append(`<h3>Compras </h3><ion-icon name="cart-outline"></ion-icon>
-<span class="contador">1</span>`)
+<span class="contador">0</span>`)
 
 
 let maquillar="";
