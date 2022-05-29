@@ -27,7 +27,7 @@ $('#filterProduct').append(`<label name="perfume">Perfumes</label>
 <select id="selector_perfume" name="perfume">${listPerfume}</select>`)
 
 $('#filterProduct').append(`<h2>Perfumeria</h2>`)
-$('#filterProduct').append(`<h3>Compras </h3><ion-icon name="cart-outline"></ion-icon>
+$('#filterProduct').append(`<h3>Compras</h3><ion-icon class="icono" name="cart-outline"></ion-icon>
 <span class="contador">0</span>`)
 
 
@@ -62,4 +62,16 @@ $('#filterProduct select').on('mouseenter', ()=>{
    
 
 })
+
+let filtrado = document.querySelector('#filterProduct')
+
+let icono = document.querySelector('.icono');
+let itemCarritos = document.querySelector('.itemCarritos')
+
+icono.addEventListener('click',()=>{
+itemCarritos.style.display='block';
+})
+
+
+
    
